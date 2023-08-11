@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct MarketPlaceApp: App {
+    @StateObject private var arr = ItemList()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(arr)
         }
     }
 }

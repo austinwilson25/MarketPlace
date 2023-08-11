@@ -14,6 +14,8 @@
 		96B846312A813D9900E87EB1 /* MarketPlaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B846302A813D9900E87EB1 /* MarketPlaceTests.swift */; };
 		96B8463B2A813D9900E87EB1 /* MarketPlaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B8463A2A813D9900E87EB1 /* MarketPlaceUITests.swift */; };
 		96B8463D2A813D9900E87EB1 /* MarketPlaceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B8463C2A813D9900E87EB1 /* MarketPlaceUITestsLaunchTests.swift */; };
+		96B8464A2A82AE1200E87EB1 /* Music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 96B846492A82AE1200E87EB1 /* Music.mp3 */; };
+		96B8464C2A85F3C500E87EB1 /* PotSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 96B8464B2A85F3C500E87EB1 /* PotSound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		96B846362A813D9900E87EB1 /* MarketPlaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarketPlaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B8463A2A813D9900E87EB1 /* MarketPlaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPlaceUITests.swift; sourceTree = "<group>"; };
 		96B8463C2A813D9900E87EB1 /* MarketPlaceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPlaceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		96B846492A82AE1200E87EB1 /* Music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Music.mp3; sourceTree = "<group>"; };
+		96B8464B2A85F3C500E87EB1 /* PotSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PotSound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 				96B8461F2A813D9800E87EB1 /* MarketPlaceApp.swift */,
 				96B846212A813D9800E87EB1 /* ContentView.swift */,
 				96B846232A813D9900E87EB1 /* Assets.xcassets */,
+				96B846492A82AE1200E87EB1 /* Music.mp3 */,
+				96B8464B2A85F3C500E87EB1 /* PotSound.mp3 */,
 				96B846252A813D9900E87EB1 /* Preview Content */,
 			);
 			path = MarketPlace;
@@ -231,7 +237,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96B8464A2A82AE1200E87EB1 /* Music.mp3 in Resources */,
 				96B846272A813D9900E87EB1 /* Preview Assets.xcassets in Resources */,
+				96B8464C2A85F3C500E87EB1 /* PotSound.mp3 in Resources */,
 				96B846242A813D9900E87EB1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
